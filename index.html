@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <h1>Ejercicio 5 CONSULTAS SQL</h1>
+
+    <div>
+        <ol>
+            <li>Selecciona las columnas film_id y title de la tabla film.</li>
+            <li>Selecciona 5 filas de la tabla film, obteniendo todas las columnas.</li>
+
+            <li>Selecciona filas de la tabla film donde film_id sea menor que 4.</li>
+            <li> Selecciona filas de la tabla film donde el rating sea PG o G.</li>
+            <li> Selecciona filas de la tabla actor donde el nombre sea Angela, Angelina o Audrey usando IN.</li>
+            <li> Obtén una lista de actores con el nombre Julia.</li>
+            <li> Obtén una lista de actores con los nombres Chris, Cameron o Cuba.</li>
+            <li>
+                Selecciona la fila de la tabla customer para el cliente con el nombre Jamie Rice.</li>
+            <li> Selecciona el monto y la fecha de pago de la tabla payment donde el monto pagado sea menor a $1.</li>
+            <li> ¿Cuáles son las diferentes duraciones de alquiler permitidas por la tienda?</li>
+            <li> Ordena las filas en la tabla city por country_id y luego por city.</li>
+            <li> ¿Cuáles son los ID de los últimos 3 clientes que devolvieron un alquiler?</li>
+            <li> ¿Cuántas películas tienen clasificación NC-17? ¿Cuántas tienen clasificación PG o PG-13?</li>
+            <li> ¿Cuántos clientes diferentes tienen registros en la tabla rental?</li>
+            <li> ¿Hay algún cliente con el mismo apellido?</li>
+            <li> ¿Qué película (id) tiene la mayor cantidad de actores?</li>
+            <li>
+                ¿Qué actor (id) aparece en la mayor cantidad de películas?</li>
+            <li> Cuenta el número de ciudades para cada country_id en la tabla city. Ordena los resultados por count(*).</li>
+            <li> ¿Cuál es la tarifa de alquiler promedio de las películas? </li>
+            <li>
+                ¿Puedes redondear el resultado a 2 decimales?</li>
+            <li> Selecciona los 10 actores que tienen los nombres más largos (nombre y apellido combinados).</li>
+        </ol>
+    </div>
+
+
+    <div class="imagenes-consultas">
+
+        <div class="contenido-imagen">
+            <p>1</p>
+            <img src="./assets/img/01 - film_id tittle FROM film.PNG" alt="">
+        </div>
+        <div class="contenido-imagen">
+            <p>2</p>
+            <img src="./assets/img/02 - todas FROM film LIMIT 5.PNG" alt="">
+        </div>
+        <div class="contenido-imagen">
+            <p>3</p>
+            <img src="./assets/img/03 - todas FROM film WHERE film_id menor 4.PNG" alt="">
+        </div>
+        <div class="contenido-imagen">
+            <p>4</p>
+            <img src="./assets/img/04 - todas FROM film WHERE PG G.PNG" alt="">
+        </div>
+        <div class="contenido-imagen">
+            <p>5</p>
+            <img src="./assets/img/05 - todas FROM actor WHERE first_name IN.PNG" alt="">
+        </div>
+        <div class="contenido-imagen">
+            <p>6</p>
+            <img src="./assets/img/06 - todas FROM actor WHERE first_name Julia.PNG" alt="">
+        </div>
+        <div class="contenido-imagen">
+            <p>7</p>
+            <img src="./assets/img/07 - todas FROM actor WHERE first_name .PNG" alt="">
+        </div>
+        <div class="contenido-imagen">
+            <p>8</p>
+            <img src="./assets/img/08 - todas FROM actor WHERE first_name Jamie Rice .PNG" alt="">
+        </div>
+        <div class="contenido-imagen">
+            <p>9</p>
+            <img src="./assets/img/09 - todas FROM payment .PNG" alt="">
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
